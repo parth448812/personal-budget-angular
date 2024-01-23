@@ -7,22 +7,22 @@ body {
     font-family: Tahoma, Arial;
 }
 
-nav {
+div.menu {
     width: 100%;
     background-color: #4d5791;
     height: 44px;
     padding: 0 40px;
 }
 
-nav ul,
-nav ul li {
+div.menu ul,
+div.menu ul li {
     margin: 0;
     padding: 0 ;
     list-style: none;
     display: inline-block;
 }
 
-nav ul li a {
+div.menu ul li a {
     display: block;
     padding: 0 20px;
     line-height: 44px;
@@ -32,7 +32,7 @@ nav ul li a {
     margin: 0;
 }
 
-nav ul li a:hover  {
+div.menu ul li a:hover  {
     background-color: white;
     color: #4d5791;
 }
@@ -40,7 +40,7 @@ nav ul li a:hover  {
 div.hero {
     height: 350px;
     background-color: #b4c6f0;
-    background-image: url('bg.png');
+    background-image: url('/bg.png');
     background-size: 400px;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -63,7 +63,7 @@ div.hero h2 {
     color: #4d5791;
 }
 
-main {
+.container {
     padding: 40px;
     width: 100%;
 }
@@ -73,28 +73,17 @@ main {
     display: inline-block;
 }
 
-footer {
+.bottom {
     height: 50px;
     background-color: #b4c6f0;
     padding: 40px;
-}
-
-.skip {
-    display: block;
-    line-height: 44px;
-    padding: 0 20px;
-    margin-top: -44px;
-}
-
-.skip:focus {
-    margin-top: 0;
 }
 
 .center {
     text-align: center;
 }
 
-main article {
+.container div.text-box {
     display: inline-block;
     width: 100%;
     max-width: 340px;
@@ -103,7 +92,7 @@ main article {
 }
 
 @media screen and (min-width: 768px) {
-    main article {
+    .container .div.text-box {
         margin: 10px;
     }
 }
