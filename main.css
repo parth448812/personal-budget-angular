@@ -52,7 +52,11 @@ header h2 {
     text-align: center;
     margin: 0;
 }
-
+.skip-link {
+    position: absolute;
+    top: -999em;
+    left: -999em;
+}
 header h1 {
     color: #fff;
     font-size: 4.2em;
@@ -95,4 +99,17 @@ header h2 {
     .container .div.text-box {
         margin: 10px;
     }
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 15px; 
+    }
+
+    .container {
+        width: 100%; 
+    }
+
+    
 }
