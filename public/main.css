@@ -1,6 +1,14 @@
 * {
     box-sizing: border-box;
 }
+#d3SvgChart {
+    margin-top: 20px;
+}
+
+.arc text {
+    font-size: 12px;
+    fill: #333;
+}
 
 body {
     font-size: 10px;
