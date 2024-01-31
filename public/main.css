@@ -1,15 +1,21 @@
 * {
     box-sizing: border-box;
 }
-#d3SvgChart {
+/* #d3SvgChart {
     margin-top: 20px;
 }
 
 .arc text {
     font-size: 12px;
     fill: #333;
-}
-
+} */
+/* #dChart-container {
+    position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+} */
 body {
     font-size: 10px;
     font-family: Tahoma, Arial;
@@ -89,6 +95,7 @@ header h2 {
     height: 50px;
     background-color: #b4c6f0;
     padding: 40px;
+    
 }
 
 .center {
